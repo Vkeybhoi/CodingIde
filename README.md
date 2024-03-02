@@ -1,6 +1,6 @@
 # CodePad
 
-Collaborative Code Editor build with Nodejs, Mongodb, Expressjs, Reactjs, Socketio &
+Code Editor build with Nodejs, Mongodb, Expressjs, Reactjs, Socketio &
 Typescript.
 
 ## Setting up
@@ -13,12 +13,6 @@ of the project directory.
 ```
 $ npm run install
 ```
-
-## Starting Development
-
-before doing anything first makes sure to setup necessory environment variables. the
-client's environment variables can be found out by looking at **client/.env** whereas the
-server environment variable information is placed in **server/config/env.ts** file.
 
 ### Start client in development mode
 
@@ -48,25 +42,6 @@ $ npm run build
 this would create a new **build** folder in the root project directory with both client
 and server builds.
 
-# Project Screenshots
-
-<img src="./screenshots/login-page.PNG" align="center" height="100%" width="100%" >
-
-<img src="./screenshots/signup-page.PNG" align="center" height="100%" width="100%" >
-
-<img src="./screenshots/home-page-light.PNG" align="center" height="100%" width="100%" >
-
-<img src="./screenshots/home-page-dark.PNG" align="center" height="100%" width="100%" >
-
-<img src="./screenshots/create-new-task.PNG" align="center" height="100%" width="100%" >
-
-<img src="./screenshots/task-area.PNG" align="center" height="100%" width="100%" >
-
-<img src="./screenshots/task-area-light.PNG" align="center" height="100%" width="100%" >
-
-<img src="./screenshots/multi-user-editing.PNG" align="center" height="100%" width="100%" >
-
-<img src="./screenshots/compiled-results.PNG" align="center" height="100%" width="100%" >
 
 ## client folder structure
 
@@ -193,6 +168,3 @@ package-lock.json
 tsconfig.json
 ```
 
-# License
-
-MIT
